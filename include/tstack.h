@@ -1,13 +1,15 @@
-#ifndef TSTACK_H
-#define TSTACK_H
+// Copyright 2026
+
+#ifndef INCLUDE_TSTACK_H_
+#define INCLUDE_TSTACK_H_
 
 template <typename T, int SIZE>
 class TStack {
-private:
+ private:
     T data[SIZE];
     int pos;
 
-public:
+ public:
     TStack() : pos(0) {}
 
     bool empty() const {
@@ -41,4 +43,4 @@ public:
     }
 };
 
-#endif
+#endif  // INCLUDE_TSTACK_H_
