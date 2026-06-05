@@ -13,7 +13,7 @@ int priority(char op) {
 }
 
 // infiks -> postfiks
-std::string inf2pstf(const std::string& inf) {
+std::string infx2pstfx(const std::string& inf) {
     TStack<char, 100> st;
     std::string result;
 
