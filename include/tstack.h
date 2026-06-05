@@ -10,7 +10,7 @@ class TStack {
     int pos;
 
  public:
-    TStack() : pos(0) {}
+    TStack() : data(), pos(0) {}
 
     bool empty() const {
         return pos == 0;
