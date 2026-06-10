@@ -8,7 +8,6 @@
 int priority(char op) {
     if (op == '+' || op == '-')
         return 1;
-
     if (op == '*' || op == '/')
         return 2;
 
